@@ -3,6 +3,7 @@ baseURL = "https://pittsburghbdsm.com"
 languageCode = "en-us"
 DefaultContentLanguage = "en"
 title = "Pittsburgh Bridge"
+publishDir = "docs"
 theme = "techdoc"
 
 hasCJKLanguage = true

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Our Blog on Pittsburgh Bridge</title>
+    <link>https://pittsburghbdsm.com/blog/</link>
+    <description>Recent content in Our Blog on Pittsburgh Bridge</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 13 Aug 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://pittsburghbdsm.com/blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Advice For Your First Event</title>
+      <link>https://pittsburghbdsm.com/blog/advice/</link>
+      <pubDate>Thu, 22 Sep 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://pittsburghbdsm.com/blog/advice/</guid>
+      <description>Type of Event
+The first thing to consider is the kind of social experience that will be comfortable for you, and help you feel encouraged about continuing to explore. Our various events provide different social experiences and atmospheres. It is helpful to select the type of event that best suits your personality.
+Do you want a large group setting in which you can see a good range of members of the local scene?</description>
+    </item>
+    
+    <item>
+      <title>The BDSM Community - It&#39;s Not That Scary After All</title>
+      <link>https://pittsburghbdsm.com/blog/not-scary/</link>
+      <pubDate>Thu, 04 Aug 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://pittsburghbdsm.com/blog/not-scary/</guid>
+      <description>One very common theme that I hear across many new attendees to our munches is an expression of anxiety or uncertainty about joining the community. I am commonly asked if it is appropriate for a new or curious person to just show up, or if it is acceptable to just walk up to others at the event and introduce yourself. The answer to both of those question is emphatically yes.</description>
+    </item>
+    
+  </channel>
+</rss>
