@@ -3,37 +3,12 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://pghbridge.github.io/web/group-info/</loc>
-    <lastmod>2020-08-13T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://pghbridge.github.io/web/group-info/bridge-events/munches/</loc>
     <lastmod>2020-08-13T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pghbridge.github.io/web/group-info/welcome/</loc>
-    <lastmod>2020-08-13T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://pghbridge.github.io/web/group-info/about/</loc>
-    <lastmod>2020-08-13T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://pghbridge.github.io/web/group-info/bridge-events/hh/</loc>
-    <lastmod>2020-08-13T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://pghbridge.github.io/web/blog/</loc>
-    <lastmod>2020-08-13T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://pghbridge.github.io/web/group-info/bridge-events/</loc>
+    <loc>https://pghbridge.github.io/web/group-info/bridge-events/happy-hour/</loc>
     <lastmod>2020-08-13T00:00:00+00:00</lastmod>
   </url>
   
@@ -48,17 +23,12 @@
   </url>
   
   <url>
-    <loc>https://pghbridge.github.io/web/group-info/tng/</loc>
+    <loc>https://pghbridge.github.io/web/group-info/about/</loc>
     <lastmod>2020-08-13T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pghbridge.github.io/web/group-info/guidelines/</loc>
-    <lastmod>2020-08-13T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://pghbridge.github.io/web/group-info/resources/</loc>
+    <loc>https://pghbridge.github.io/web/group-info/bridge-events/</loc>
     <lastmod>2020-08-13T00:00:00+00:00</lastmod>
   </url>
   
@@ -68,7 +38,32 @@
   </url>
   
   <url>
+    <loc>https://pghbridge.github.io/web/group-info/</loc>
+    <lastmod>2020-08-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pghbridge.github.io/web/group-info/guidelines/</loc>
+    <lastmod>2020-08-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pghbridge.github.io/web/blog/</loc>
+    <lastmod>2020-08-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://pghbridge.github.io/web/</loc>
+    <lastmod>2020-08-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pghbridge.github.io/web/group-info/resources/</loc>
+    <lastmod>2020-08-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pghbridge.github.io/web/group-info/tng/</loc>
     <lastmod>2020-08-13T00:00:00+00:00</lastmod>
   </url>
   
