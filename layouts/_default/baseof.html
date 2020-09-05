@@ -2,7 +2,6 @@
 {{ with .Site.LanguageCode }}<html lang="{{ . }}">{{ else }}<html>{{ end }}
 <head>
     {{- partial "head.html" . -}}
-    {{- partial "custom-head.html" . -}}
 </head>
 <body>
     {{- partial "prepend-body.html" . -}}

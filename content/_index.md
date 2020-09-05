@@ -10,7 +10,7 @@ menu:
         title: "Welcome"
 ---
 
-![Logo](/images/logo.png)
+![Logo](images/logo.png)
 
 So you enjoyed 50 Shades of Grey, The Claiming of Sleeping Beauty, and The Secretary a little more than you let on? You thought to yourself, I bet there’s more of this stuff out there. You browsed a bit and found kink, BDSM, and fetish websites by the dozen. You watched movies. You read stories. Maybe you even checked out a personal ad or two. Then you found us.
 
