@@ -1,29 +1,19 @@
 ## Built with Hugo 0.74.3 extended
 
 baseURL = "https://pghbridge.github.io/web/"
+title = "Pittsburgh Bridge"
 
 languageCode = "en-us"
-DefaultContentLanguage = "en"
-title = "Pittsburgh Bridge"
 publishDir = "docs"
 theme = "techdoc"
 
 hasCJKLanguage = true
 metaDataFormat = "yaml"
 
-staticDir = "static"
-
-defaultContentLanguage = "en"
-defaultContentLanguageInSubdir= false
-enableMissingTranslationPlaceholders = false
-
 [params]
 	
     # Source Code repository section
     description = "Spanning Kink Communities"
-    github_repository = "https://github.com/pghbridge/web"
-    #version = "1"
-
 
     # Open Graph and Twitter Cards settings section
     # Open Graph settings for each page are set on the front matter.
@@ -37,10 +27,6 @@ enableMissingTranslationPlaceholders = false
     # See color value reference https://developer.mozilla.org/en-US/docs/Web/CSS/color
     custom_font_color = ""
     custom_background_color = ""
-
-    # Documentation Menu section
-    # Menu style settings
-    menu_style = "open-menu" # "open-menu" or "slide-menu"
 
     # Date format
     dateformat = "" # default "2 Jan 2006"
@@ -57,14 +43,6 @@ enableMissingTranslationPlaceholders = false
     algolia_indexName = "hugo-demo-techdoc"
     algolia_appId = "7W4SAN4PLK"
     algolia_apiKey = "cbf12a63ff72d9c5dc0c10c195cf9128" # Search-Only API Key
-
-# Global menu section
-# See https://gohugo.io/content-management/menus/
-[menu]
-    [[menu.main]]
-        name = "Home"
-        url = "/group-info/welcome/"
-        weight = 1
 
 # Markup configure section
 # See https://gohugo.io/getting-started/configuration-markup/

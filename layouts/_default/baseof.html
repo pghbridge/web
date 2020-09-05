@@ -8,7 +8,10 @@
     {{- partial "prepend-body.html" . -}}
     <div class="container">
         {{- partial "notification.html" . -}}
-        {{- partial "site-header.html" . -}}
+
+        <header>
+            {{- partial "site-header.html" . -}}
+        </header>
 
         <div class="global-menu"> {{/* why is this not "main" (as in the original theme)? :iiam: */}}
         {{ block "top-menu" . -}}
@@ -18,15 +21,27 @@
 
         <div class="content-container">
             <main>
-                {{- block "main" . -}}
-                {{- end -}}
-                <footer>
-                    {{- partial "content-footer.html" . -}}
-                    {{- partial "powered.html" . -}}
-                </footer>
+            {{- block "main" . -}}
+            {{- end -}}
+
+            <footer>
+                {{- partial "content-footer.html" . -}}
+            </footer>
             </main>
 
-            {{- partial "sidebar.html" . -}}
+            <div class="sidebar">
+				<nav class="open-menu">
+				{{- block "sidebar" . -}}
+                    {{- $usersPage := . -}}
+                    {{- $site := .Site -}}
+					<ul>
+                    {{- range .Site.Menus.sidebar -}}
+                        {{ partial "sidebar-item.html" (dict "menuEntry" . "usersPage" $usersPage "site" $site) }} 
+                    {{- end -}}
+					<ul>
+				{{- end -}}
+				</nav>
+            </div>
         </div>
         {{- partial "footer.html" . -}}
     </div>

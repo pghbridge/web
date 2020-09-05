@@ -1,7 +1,15 @@
 ---
 title: Bridge Events
 date: 2020-08-13
-weight: 30
+menu:
+    sidebar:
+        weight: 3
+        identifier: events
+        parent: group-info
+cascade:
+    menu:
+        sidebar:
+            parent: events
 ---
 
 An overview:

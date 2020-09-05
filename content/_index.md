@@ -7,6 +7,7 @@ menu:
     sidebar:
         parent: group-info
         weight: 1
+        title: "Welcome"
 ---
 
 ![Logo](/images/logo.png)

@@ -1,7 +1,10 @@
 ---
 title: The Next Generation
 date: 2020-08-13
-weight: 40
+menu:
+    sidebar:
+        parent: group-info
+        weight: 4
 ---
 
 TNG is a group under the Bridge umbrella focused on the needs of the 18-35 age demographic (and their partners) of our community. We welcome all sexualities and gender identification, and any D/s or M/s or any variant power exchange dynamic. As a group we will strive to maintain a safe, respectful, supportive and educational environment for the youngest members of our Pittsburgh Kink community, to further the education and safety of our community as a whole.

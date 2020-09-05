@@ -1,7 +1,10 @@
 ---
 title: Guidelines for Conduct
 date: 2020-08-13
-weight: 50
+menu:
+    sidebar:
+        parent: group-info
+        weight: 5
 ---
 
 By attending Bridge events or making use of Bridge resources, individuals agree to adhere to the following guidelines:

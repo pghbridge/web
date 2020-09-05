@@ -1,7 +1,7 @@
 ---
 title: Education
 date: 2020-08-13
-weight: 30
+weight: 3
 ---
 
 Bridge offers three kinds of educational classes that focus on a variety of topics across the spectrum of kink.

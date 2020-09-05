@@ -1,7 +1,7 @@
 ---
 title: Munches
 date: 2020-08-13
-weight: 10
+weight: 1
 ---
 
 Munches: Munches are social gatherings, which are generally held at restaurants. These are weeknight events which center around food, drink, and discussion with fellow kinksters. They offer a relaxed atmosphere and are an excellent way to meet people and begin to explore kink.

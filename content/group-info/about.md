@@ -1,7 +1,10 @@
 ---
 title: About Us
 date: 2020-08-13
-weight: 20
+menu:
+    sidebar:
+        weight: 2
+        parent: group-info
 ---
 
 Pittsburgh Bridge is a BDSM peer group primarily designed to provide social interaction and education to people interested in a variety of alternative lifestyles. Pittsburgh Bridge welcomes everyone 18 years of age or older regardless of experience level, providing you are accepting and respectful of all of our members.

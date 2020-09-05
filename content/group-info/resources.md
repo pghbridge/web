@@ -1,7 +1,10 @@
 ---
 title: Resources
 date: 2020-08-13
-weight: 60
+menu:
+    sidebar:
+        parent: group-info
+        weight: 6
 ---
 
 National Coalition for Sexual Freedom

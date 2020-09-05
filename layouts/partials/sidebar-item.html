@@ -1,0 +1,24 @@
+{{- $usersPage := .usersPage -}}
+{{- $menuEntry := .menuEntry -}}
+{{- $site := .site -}}
+
+{{- $isUsersPage := .usersPage.IsMenuCurrent .menuEntry.Menu .menuEntry -}}
+{{- $isParent := .usersPage.HasMenuCurrent .menuEntry.Menu .menuEntry -}}
+
+{{/*- Compose li classes for the current page: -*/}}
+{{/*- 1) The page the user is on needs the `active` li class. -*/}}
+{{- $active := cond $isUsersPage "active" "" -}}
+{{/*- 2) Sections in the path from the user's page to the root need the `parent` li class. -*/}}
+{{- $parent := cond $isParent "parent" "" -}}
+
+<li class="{{- delimit (slice $active $parent) " " -}}">
+    <a href="{{- .menuEntry.URL -}}">{{- .menuEntry.Title -}}</a>
+
+    {{- if .menuEntry.HasChildren -}}
+        <ul class="sub-menu"> {{/* All nested ul sections need the `sub-menu` class. */}}
+        {{- range .menuEntry.Children -}}
+            {{ partial "sidebar-item.html" (dict "menuEntry" . "usersPage" $usersPage "site" $site) }} 
+        {{- end -}}
+        </ul>
+    {{- end -}}
+</li>
