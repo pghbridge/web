@@ -1,5 +1,12 @@
 ---
 title: Pittsburgh Bridge
+menu:
+    top:
+        weight: 1
+        name: Home
+    sidebar:
+        parent: group-info
+        weight: 1
 ---
 
 ![Logo](/images/logo.png)

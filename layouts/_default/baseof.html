@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+{{ with .Site.LanguageCode }}<html lang="{{ . }}">{{ else }}<html>{{ end }}
+<head>
+    {{- partial "head.html" . -}}
+    {{- partial "custom-head.html" . -}}
+</head>
+<body>
+    {{- partial "prepend-body.html" . -}}
+    <div class="container">
+        {{- partial "notification.html" . -}}
+        {{- partial "site-header.html" . -}}
+
+        <div class="global-menu"> {{/* why is this not "main" (as in the original theme)? :iiam: */}}
+        {{ block "top-menu" . -}}
+            {{- partial "top-menu.html" . -}}
+        {{- end -}}
+        </div>
+
+        <div class="content-container">
+            <main>
+                {{- block "main" . -}}
+                {{- end -}}
+                <footer>
+                    {{- partial "content-footer.html" . -}}
+                    {{- partial "powered.html" . -}}
+                </footer>
+            </main>
+
+            {{- partial "sidebar.html" . -}}
+        </div>
+        {{- partial "footer.html" . -}}
+    </div>
+</body>
+</html>

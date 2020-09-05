@@ -1,0 +1,12 @@
+{{- $usersPage := . -}}
+{{- $top := .Site.Menus.top -}}
+<nav>
+    <ul>
+    {{- range $top.ByWeight -}}
+        {{- $onUsersPage := $usersPage.IsMenuCurrent .Menu . -}}
+        <li {{- if $onUsersPage }} class="active"{{- end -}}> {{/* XXX: there's no styling on this "active" class */}}
+            <a href="{{ .URL }}">{{- .Name -}}</a>
+        </li>
+    {{- end -}}
+    </ul>
+</nav>

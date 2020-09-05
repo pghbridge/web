@@ -1,7 +1,6 @@
 ## Built with Hugo 0.74.3 extended
 
 baseURL = "https://pghbridge.github.io/web/"
-relativeURLs = true
 
 languageCode = "en-us"
 DefaultContentLanguage = "en"
