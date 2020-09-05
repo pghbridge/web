@@ -1,3 +1,5 @@
+## Built with Hugo 0.74.3 extended
+
 baseURL = "https://pghbridge.github.io/web/"
 
 languageCode = "en-us"
