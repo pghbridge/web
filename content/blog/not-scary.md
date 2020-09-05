@@ -1,7 +1,6 @@
 ---
 title: The BDSM Community - It's Not That Scary After All
 date: 2016-08-04
-draft: false
 ---
 
 One very common theme that I hear across many new attendees to our munches is an expression of anxiety or uncertainty about joining the community. I am commonly asked if it is appropriate for a new or curious person to just show up, or if it is acceptable to just walk up to others at the event and introduce yourself. The answer to both of those question is emphatically yes.

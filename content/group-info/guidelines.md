@@ -1,7 +1,6 @@
 ---
 title: Guidelines for Conduct
 date: 2020-08-13
-draft: false
 weight: 50
 ---
 

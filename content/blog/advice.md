@@ -1,8 +1,6 @@
-
 ---
 title: Advice For Your First Event
 date: 2016-09-22
-draft: false
 ---
 
 Type of Event

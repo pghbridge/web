@@ -1,7 +1,6 @@
 ---
 title: Education
 date: 2020-08-13
-draft: false
 weight: 30
 ---
 
@@ -12,4 +11,3 @@ Generally on a Saturday from 2-4, some topics run longer. These classes are in d
 The Next Generation Meeting
 
 7 p.m. on the second Tuesday of the month at the The Equality Center. Classes and discussions designed to be of interest to younger kinksters (35 and under).
-Edit This	
