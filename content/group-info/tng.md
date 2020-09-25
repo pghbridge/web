@@ -15,4 +15,4 @@ We meet twice per month. Our educational meeting is on the second Tuesday and he
 
 Our sloshes are usually held on the last Friday of the month and rotate between various bars and restaurants.
 
-Any questions? You can contact us at: TNGPittsburgh@gmail.com
+Any questions? You can contact us at: [TNGPittsburgh@gmail.com](mailto:TNGPittsburgh@gmail.com)
