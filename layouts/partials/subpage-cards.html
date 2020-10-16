@@ -1,0 +1,14 @@
+<div class="columns is-multiline">
+{{ range .Pages.ByWeight }}
+    <div class="column is-half card">
+        <div class="card-header">
+            <p class="card-header-title">
+                <a href="{{- .Permalink -}}">{{- .Title -}}</a>
+            </p>
+        </div>
+        <div class="card-content">
+            {{- .Description | default .Summary -}}
+        </div>
+    </div>
+{{- end -}}
+</div>

@@ -1,12 +1,81 @@
-{{- $usersPage := . -}}
-{{- $top := .Site.Menus.top -}}
-<nav>
-    <ul>
-    {{- range $top.ByWeight -}}
-        {{- $onUsersPage := $usersPage.IsMenuCurrent .Menu . -}}
-        <li {{- if $onUsersPage }} class="active"{{- end -}}> {{/* XXX: there's no styling on this "active" class */}}
-            <a href="{{ .URL }}">{{- .Name -}}</a>
-        </li>
-    {{- end -}}
-    </ul>
+{{- define "menu-item" -}}
+    <a class="navbar-item" href="{{- .URL -}}">
+        {{- with .Pre -}}
+        <span class="icon">
+            <i class="{{- . -}}" aria-hidden="true"></i>
+        </span>
+        {{- end -}}
+        <span>{{- .Name -}}</span>
+    </a>
+{{- end -}} 
+
+<nav class="navbar is-fixed-top is-link" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+        <a class="navbar-item" href="{{- .Site.BaseURL -}}">
+            <span class="icon">
+                <i class="fa fa-home" aria-hidden="true"></i>
+            </span>
+            <span><strong>Home</strong></span>
+        </a>
+
+        <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="top-nav">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+        </a>
+    </div>
+
+    <div id="top-nav" class="navbar-menu">
+        <div class="navbar-start">
+        {{- $usersPage := . -}}
+        {{- range .Site.Menus.top.ByWeight -}}
+            {{- if .HasChildren -}}
+            <div class="navbar-item has-dropdown is-hoverable">
+                <a class="navbar-link" href="{{- .URL -}}">
+                    {{- with .Pre -}}
+                    <span class="icon">
+                        <i class="{{- . -}}" aria-hidden="true"></i>
+                    </span>
+                    {{- end -}}
+                    <span>{{- .Name -}}</span>
+                </a>
+                <div class="navbar-dropdown">
+                {{- range .Children -}}
+                    {{- template "menu-item" . -}}
+                {{- end -}}
+                </div>
+            </div>
+            {{- else -}}
+                {{- template "menu-item" . -}}
+            {{- end -}}
+        {{- end -}}
+        </div>
+
+        <div class="navbar-end">
+            <div class="buttons">
+                <a href="https://fetlife.com/groups/3115" class="navbar-item button is-danger is-light">
+                    <span class="icon">
+                    <img src="images/fetlife-favicon.png" height="18" width="18">
+                    </span>
+                    <span>FetLife</span>
+                </a>
+
+                <a href="https://twitter.com/PghBridge" class="navbar-item button is-info is-light">
+                    <span class="icon">
+                    <i class="fab fa-twitter"></i>
+                    </span>
+                    <span>@PghBridge</span>
+                </a>
+
+                <a href="https://www.facebook.com/pittsburghbridge/" class="navbar-item button is-link is-light">
+                    <span class="icon">
+                    <i class="fab fa-facebook"></i>
+                    </span>
+                    <span>Facebook</span>
+                </a>
+
+                <hr class="navbar-divider">
+            </div>
+        </div>
+    </div>
 </nav>

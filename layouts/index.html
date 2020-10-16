@@ -1,4 +1,50 @@
+{{ define "header" }}
+<section class="hero is-bold is-dark is-medium">
+    <div class="hero-body level">
+        <a href="{{- .Site.Home.Permalink -}}">
+            <div class="level-left">
+                <span class="level-item">
+                    <figure class="image is-128x128">
+                        <img src="images/logo.png">
+                    </figure>
+                </span>
+                <div class="level-item">
+                    <div class="content">
+                        <p class="title is-2">{{- .Site.Title -}}</p>
+                        <p class="subtitle is-4">{{- .Site.Params.description -}}</p>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </div>
+</section>
+{{ end }}
+
 {{ define "main" }}
     {{- .Site.Home.Content -}}
-    {{- partial "edit-meta.html" . -}}
-{{- end -}}
+
+    <div class="buttons are-large is-centered">
+        <a href="https://fetlife.com/groups/3115" class="button is-danger is-light">
+            <span class="icon">
+                <img src="images/fetlife-favicon.png" height="28" width="28">
+            </span>
+            <span>FetLife</span>
+        </a>
+
+        <a href="https://twitter.com/PghBridge" class="button is-info is-light">
+            <span class="icon">
+                <i class="fab fa-twitter"></i>
+            </span>
+            <span>@PghBridge</span>
+        </a>
+
+        <a href="https://www.facebook.com/pittsburghbridge/" class="button is-link is-light">
+            <span class="icon">
+                <i class="fab fa-facebook"></i>
+            </span>
+            <span>Facebook</span>
+        </a>
+    </div>
+
+    {{- partial "subpage-cards.html" . -}}
+{{ end }}

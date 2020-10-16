@@ -1,0 +1,9 @@
+{{- if .usersPage.IsMenuCurrent .menuEntry.Menu .menuEntry -}}
+    <li><a href="{{- .menuEntry.URL -}}">{{- .menuEntry.Name -}}</a></li>
+{{- else if .usersPage.HasMenuCurrent .menuEntry.Menu .menuEntry -}}
+    <li><a href="{{- .menuEntry.URL -}}">{{- .menuEntry.Name -}}</a></li>
+    {{- $usersPage := .usersPage -}}
+    {{- range .menuEntry.Children -}}
+        {{- partial "breadcrumb.html" (dict "menuEntry" . "usersPage" $usersPage) -}}
+    {{- end -}}
+{{- end -}}

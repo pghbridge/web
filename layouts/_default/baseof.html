@@ -1,48 +1,45 @@
 <!DOCTYPE html>
-{{ with .Site.LanguageCode }}<html lang="{{ . }}">{{ else }}<html>{{ end }}
+<html {{- with .Site.LanguageCode }} lang="{{ . }}" {{- end -}}>
 <head>
     {{- partial "head.html" . -}}
 </head>
-<body>
-    {{- partial "prepend-body.html" . -}}
-    <div class="container">
-        {{- partial "notification.html" . -}}
 
-        <header>
-            {{- partial "site-header.html" . -}}
-        </header>
+<body class="has-navbar-fixed-top">
+    <header>
+    {{- block "header" . -}}
+        {{- partial "header.html" . -}}
+    {{- end -}}
+    </header>
 
-        <div class="global-menu"> {{/* why is this not "main" (as in the original theme)? :iiam: */}}
-        {{ block "top-menu" . -}}
-            {{- partial "top-menu.html" . -}}
-        {{- end -}}
-        </div>
+    {{- partial "top-menu.html" . -}}
 
-        <div class="content-container">
-            <main>
-            {{- block "main" . -}}
-            {{- end -}}
-
-            <footer>
-                {{- partial "content-footer.html" . -}}
-            </footer>
-            </main>
-
-            <div class="sidebar">
-				<nav class="open-menu">
-				{{- block "sidebar" . -}}
-                    {{- $usersPage := . -}}
-                    {{- $site := .Site -}}
-					<ul>
-                    {{- range .Site.Menus.sidebar -}}
-                        {{ partial "sidebar-item.html" (dict "menuEntry" . "usersPage" $usersPage "site" $site) }} 
-                    {{- end -}}
-					<ul>
-				{{- end -}}
-				</nav>
+    <div class="column is-10 is-offset-1">
+        <section class="section">
+            <div class="container">
+                <div class="content">
+                {{- block "main" . -}}
+                    {{ .Content }}
+                {{- end -}}
+                </div>
             </div>
-        </div>
-        {{- partial "footer.html" . -}}
+        </section>
+
+        {{- block "after-content" . -}}
+        {{- end -}}
     </div>
+
+    <footer class="footer">
+    {{- block "footer" . -}}
+        <nav class="breadcrumb is-centered has-succeeds-separator" aria-label="breadcrumbs">
+            <ul>
+                <li><a href="{{- .Site.Home.Permalink -}}">{{- .Site.Home.Title -}}</a></li>
+                {{- $usersPage := . -}}
+                {{- range .Site.Menus.top -}}
+                    {{- partial "breadcrumb.html" (dict "menuEntry" . "usersPage" $usersPage) -}}
+                {{- end -}}
+            </ul>
+        </nav>
+    {{- end -}}
+    </footer>
 </body>
 </html>

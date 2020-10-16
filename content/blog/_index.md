@@ -1,12 +1,14 @@
 ---
-title: Our Blog
+title: Blog
 date: 2020-08-13
 menu:
-    sidebar:
-        weight: 2
+    top:
+        weight: 4
         identifier: blog
+        pre: "fas fa-pencil-alt"
 cascade:
     menu:
-        sidebar:
+        top:
             parent: blog
+description: "Writings from the community."
 ---
