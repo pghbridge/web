@@ -11,7 +11,7 @@ We are excited to launch our redesigned website - complete with the new logo, co
 
 As [Twitter](twitter) seems to be a less and less reliable platform, you can look to this website for more regular updates and event information!
 
-<h4>Bridge Reemurges from the Pandemic Hiatus</h4>
+<h4>Bridge Reemerges from the Pandemic Hiatus</h4>
 
 With our [Roland's Munch](group-info/bridge-events/munches) now consistently in full swing, we are looking to get more events back to a regular cadence.  We promise some exciting announcements coming up in the near future following up on the big news of the return of the [Pittsburgh Community Kinknic](https://fetlife.com/events/1278937) (Fetlife Link, login required).
 
