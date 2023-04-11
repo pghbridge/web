@@ -57,4 +57,4 @@ Be friendly and open minded!
 It’s okay if you’re not accustomed to sex and kink positive environments. It’s also okay if you’re uncomfortable at first, but try to be polite and non-judgemental.  You certainly don’t have to talk about anything you’d like not to. In fact, it’s okay to say, “I’m not comfortable talking about that right now.  Can we talk about something else instead?”
 
 By: pavlov<br>
-More questions? Shoot me an email:  [pavlovrimanere@gmail.com](mailto:pavlovrimanere@gmail.com)
+More questions? Shoot us an email:  [pittsburgh.bridge@gmail.com](mailto:pittsburgh@gmail.com)

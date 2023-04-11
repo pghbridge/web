@@ -15,6 +15,6 @@ Most Bridge events are held in public restaurants. These venues welcome the kink
 
 Although many of our events take place at venues that serve alcohol, engaging in or negotiating play while intoxicated is strongly discouraged.
 
-Pittsburgh Bridge wishes to create the safest possible environment for the attendees of our events. As such, we take sexual assault and other major consent violations very seriously. Anyone credibly accused of such a violation may be asked not to attend events organized by Pittsburgh Bridge. When these issues arise, Bridge generally adheres to the [NCSF Guide for Groups](pdf/guidelines.pdf).
+Pittsburgh Bridge wishes to create the safest possible environment for the attendees of our events. As such, we take sexual assault and other major consent violations very seriously. Anyone credibly accused of such a violation may be asked not to attend events organized by Pittsburgh Bridge. When these issues arise, Bridge generally adheres to the [NCSF Best Practices for Consent to Kink](https://ncsfreedom.org/wp-content/uploads/2022/01/Best-Practices-for-Consent-to-Kink.pdf).
 
 It is much better for everyone, however, if these incidents never happen in the first place, so we also support prevention activities including education in consent and safety. Even in the presence of these measures, attendees should understand that no environment is completely safe and that they are ultimately responsible for their own well being.

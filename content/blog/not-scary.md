@@ -13,4 +13,4 @@ In fact, take a walk around our munches on a busy night and you will hear discus
 
 The BDSM community is in many ways no different than any other group of people that get together from time to time to enjoy each others’ company. We all have our lives, our jobs, and our families to think about when we go out into the real world. But we also all have one thing in common, we enjoy getting together to share our interests with our friends in a space where we won’t be judged for who we are and what we like to do. If this sounds like an experience that you’d like in your own unique life, than we’d love to have you.
 
--...
+-[...](mailto:pittsburgh.bridge@gmail.com)

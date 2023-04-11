@@ -7,4 +7,6 @@ menu:
         identifier: group-info
 ---
 
-Content goes here.
+{{< cimg2 "images/logo.png" Resize "300x">}}
+
+Looking for a place to start?  See our [welcome]() and [about us](group-info/about) pages first!

@@ -6,10 +6,17 @@
     <description>Recent content in Our Blog on Pittsburgh Bridge</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 13 Aug 2020 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://pghbridge.github.io/web/blog/index.xml" rel="self" type="application/rss+xml" />
-    
+    <lastBuildDate>Thu, 13 Aug 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://pghbridge.github.io/web/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>New Website Launch / End of Pandemic Hiatus</title>
+      <link>https://pghbridge.github.io/web/blog/website2/</link>
+      <pubDate>Tue, 11 Apr 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://pghbridge.github.io/web/blog/website2/</guid>
+      <description>A New LookWe are excited to launch our redesigned website - complete with the new logo, color scheme, and running on a new platform under the hood! This new look symbolizes our rebirth after several long years in hibernation running primarily virtual events.
+As Twitter seems to be a less and less reliable platform, you can look to this website for more regular updates and event information!
+Bridge Reemurges from the Pandemic HiatusWith our Roland&amp;rsquo;s Munch now consistently in full swing, we are looking to get more events back to a regular cadence.</description>
+    </item>
     
     <item>
       <title>Advice For Your First Event</title>

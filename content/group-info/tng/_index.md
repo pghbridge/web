@@ -3,8 +3,13 @@ title: The Next Generation
 date: 2020-08-13
 menu:
     sidebar:
-        parent: group-info
         weight: 4
+        identifier: tng
+        parent: group-info
+cascade:
+    menu:
+        sidebar:
+            parent: tng
 ---
 
 TNG is a group under the Bridge umbrella focused on the needs of the 18-35 age demographic (and their partners) of our community. We welcome all sexualities and gender identification, and any D/s or M/s or any variant power exchange dynamic. As a group we will strive to maintain a safe, respectful, supportive and educational environment for the youngest members of our Pittsburgh Kink community, to further the education and safety of our community as a whole.
@@ -16,3 +21,5 @@ We meet twice per month. Our educational meeting is on the second Tuesday and he
 Our sloshes are usually held on the last Friday of the month and rotate between various bars and restaurants.
 
 Any questions? You can contact us at: [TNGPittsburgh@gmail.com](mailto:TNGPittsburgh@gmail.com)
+
+{{< color "#ff0000" "TNG will return soon as we work on recovering from the pandemic!" >}}

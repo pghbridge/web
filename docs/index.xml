@@ -6,11 +6,7 @@
     <description>Recent content on Pittsburgh Bridge</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 13 Aug 2020 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://pghbridge.github.io/web/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Tue, 11 Apr 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://pghbridge.github.io/web/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Munches</title>
       <link>https://pghbridge.github.io/web/group-info/bridge-events/munches/</link>
@@ -29,7 +25,7 @@ Roland’s is one of our favorite venues. It offers a large, private area upstai
       
       <guid>https://pghbridge.github.io/web/group-info/bridge-events/happy-hour/</guid>
       <description>If you’re not quite ready for a play event, but looking for something a little wilder than a munch, Happy Hours are the events for you. They’re held at a selection of bars across the city and generally include drinks, dancing, and a party atmosphere. Pittsburgh Bridge Happy Hour is held at 7 p.m. on the second or third Friday of the month at various bars around the city.
-Pittsburgh Bridge frequents the following locations.</description>
+Pittsburgh Bridge is currently reevaluating our Happy Hour locations as we recover from the pandemic.</description>
     </item>
     
     <item>
@@ -40,17 +36,28 @@ Pittsburgh Bridge frequents the following locations.</description>
       <guid>https://pghbridge.github.io/web/group-info/bridge-events/education/</guid>
       <description>Bridge offers three kinds of educational classes that focus on a variety of topics across the spectrum of kink.
 Bridge AcademyGenerally on a Saturday from 2-4, some topics run longer. These classes are in depth looks on a variety of different topics. Classes can be structured as demonstrations, lectures, discussions, or hands-on workshops. They cover content on kink dynamics and technical skills of play.
-The Next Generation Meeting7 p.</description>
+More information on our events coming soon as we get in full swing from the pandemic.</description>
     </item>
     
     <item>
       <title>Sloshes</title>
-      <link>https://pghbridge.github.io/web/group-info/bridge-events/sloshes/</link>
+      <link>https://pghbridge.github.io/web/group-info/tng/sloshes/</link>
       <pubDate>Thu, 13 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://pghbridge.github.io/web/group-info/bridge-events/sloshes/</guid>
+      <guid>https://pghbridge.github.io/web/group-info/tng/sloshes/</guid>
       <description>Sloshes are booze-centric shindigs. Drink, eat, and be merry in a low key social environment. It’s a bit wilder than a munch, but not quite as intense as a happy hour. You could consider it a cross between the two. Sloshes are designed for those in the 18-35 age demographic (and their partners) to have a relaxed atmosphere to connect with others and begin to explore kink.
 TNG sloshes are usually held on the last Friday of the month and rotate between various bars and restaurants.</description>
+    </item>
+    
+    <item>
+      <title>New Website Launch / End of Pandemic Hiatus</title>
+      <link>https://pghbridge.github.io/web/blog/website2/</link>
+      <pubDate>Tue, 11 Apr 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://pghbridge.github.io/web/blog/website2/</guid>
+      <description>A New LookWe are excited to launch our redesigned website - complete with the new logo, color scheme, and running on a new platform under the hood! This new look symbolizes our rebirth after several long years in hibernation running primarily virtual events.
+As Twitter seems to be a less and less reliable platform, you can look to this website for more regular updates and event information!
+Bridge Reemurges from the Pandemic HiatusWith our Roland&amp;rsquo;s Munch now consistently in full swing, we are looking to get more events back to a regular cadence.</description>
     </item>
     
     <item>
@@ -93,21 +100,12 @@ Most Bridge events are held in public restaurants. These venues welcome the kink
     </item>
     
     <item>
-      <title>The Next Generation</title>
-      <link>https://pghbridge.github.io/web/group-info/tng/</link>
-      <pubDate>Thu, 13 Aug 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://pghbridge.github.io/web/group-info/tng/</guid>
-      <description>TNG is a group under the Bridge umbrella focused on the needs of the 18-35 age demographic (and their partners) of our community. We welcome all sexualities and gender identification, and any D/s or M/s or any variant power exchange dynamic. As a group we will strive to maintain a safe, respectful, supportive and educational environment for the youngest members of our Pittsburgh Kink community, to further the education and safety of our community as a whole.</description>
-    </item>
-    
-    <item>
       <title>Twitter Feed</title>
       <link>https://pghbridge.github.io/web/twitter/</link>
       <pubDate>Thu, 13 Aug 2020 00:00:00 +0000</pubDate>
       
       <guid>https://pghbridge.github.io/web/twitter/</guid>
-      <description>Tweets by PghBridge</description>
+      <description>Tweets by PghBridge </description>
     </item>
     
     <item>
