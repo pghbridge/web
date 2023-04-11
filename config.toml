@@ -17,8 +17,8 @@ metaDataFormat = "yaml"
     # Open Graph settings for each page are set on the front matter.
     # See https://gohugo.io/templates/internal/#open-graph
     # See https://gohugo.io/templates/internal/#twitter-cards
-    title = "Hugo Techdoc Theme"
-    images = ["images/og-image.png"] # Open graph images are placed in `static/images`
+    title = "Pittsburgh Bridge - Pittsburgh's Largest Kink Community"
+    images = ["images/logo.png"] # Open graph images are placed in `static/images`
 
     # Theme settings section
     # Theme color
